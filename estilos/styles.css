@@ -416,3 +416,15 @@ justify-content: start;
 }
 
 }
+
+
+/**------------ TRANSICIONES -----------**/
+
+.transicion {
+    transition: width 2s, height 1s;
+}
+
+.transicion:hover {
+    width: 600px;
+    height: 600px;
+}
